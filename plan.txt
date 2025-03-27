@@ -1,0 +1,19 @@
+connexion 
+
+
+traitement : 
+
+Create : insert into users(name,email) values("john","john@gmail.com")
+
+Read : select * from users // collection des utilisateurs
+read : select count(*) from users // scalaire(entier)
+
+Update : update users set name = "jane" where id = 1
+
+Delete : delete from users where id = 1
+
+CRUD
+
+
+
+deconnexion
