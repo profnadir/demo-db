@@ -7,7 +7,9 @@ $password = "";
 try {
 
     $con = new PDO($dsn,$username,$password);
-    echo "connected";
+    $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    //echo "connected";
 
 } catch (PDOException $e) {
 

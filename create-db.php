@@ -8,7 +8,7 @@ try {
 
     $con = new PDO($dsn,$username,$password);
     
-    $sql = "create database 25dev102";
+    $sql = "create database 25dev101";
 
     $con->exec($sql);
 
